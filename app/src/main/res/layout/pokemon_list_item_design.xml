@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_5dp">
+
+    <ImageView
+        android:id="@+id/pokemon_iv_item_design"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/pokemon_header_tv_item_design"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:layout_marginEnd="@dimen/margin_10dp"
+        android:textColor="@color/darker_gray"
+        android:textSize="@dimen/listing_header_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pokemon_description_tv_item_design"
+        app:layout_constraintStart_toEndOf="@+id/pokemon_iv_item_design"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Bulbasaur" />
+
+    <TextView
+        android:id="@+id/pokemon_description_tv_item_design"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:layout_marginEnd="@dimen/margin_10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/darker_gray"
+        android:textSize="@dimen/listing_description_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pokemon_iv_item_design"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon_header_tv_item_design"
+        tools:text="Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem Ipsum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

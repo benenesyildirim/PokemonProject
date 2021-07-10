@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="listing_description_text_size">15sp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="listing_header_text_size">25sp</dimen>
+</resources>
