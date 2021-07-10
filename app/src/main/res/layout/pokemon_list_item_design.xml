@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/pokemon_iv_item_design"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
         android:layout_margin="@dimen/margin_10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,5 +45,4 @@
         app:layout_constraintStart_toEndOf="@+id/pokemon_iv_item_design"
         app:layout_constraintTop_toBottomOf="@+id/pokemon_header_tv_item_design"
         tools:text="Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem Ipsum" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
